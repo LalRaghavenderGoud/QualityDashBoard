@@ -1,0 +1,2223 @@
+
+<report>	
+	<activity
+	user="ssri"
+	host="ssri"
+	osversion="Windows 10"
+	language="CHROME"
+	screenresolution="1920X1080"
+	timestamp="02/14/2020 7:02:09 PM"
+	result="Success"
+	duration="00:09:55 HH:MM:SS"
+	type="root"
+	totalerrorcount="1"
+	totalwarningcount="0"
+	totalsuccesscount="0"
+	totalfailedcount="1"
+	totalblockedcount="0">
+	<detail>
+		Test Execution Report
+	</detail>
+	<activity
+			testsuitename="VTAF Test Execution Report"
+			runconfigname=""
+			runlabel=""
+			maxchildren="0"
+			result="Success"
+			duration="00:09:55 HH:MM:SS"
+			type="test suite"
+			rid="a106eb7a56abd88">
+			
+			<activity
+					foldername="TS_BaseRegressionGPS"
+					result="Failed"
+					duration="00:09:53"
+					type="folder"
+					rid="1">
+					<params/>
+					
+					<activity
+						testcasename="tc_ContractNumberinDbwhenoptiontoextendischeckedforformatdeal"
+						datasource=""
+						iterationcount="1"
+						maxchildren="0"
+						result="Failed"
+						duration="0ms"
+						type="test case"
+						rid="2">
+						<activity
+							modulename="tc_ContractNumberinDbwhenoptiontoextendischeckedforformatdeal"
+							moduletype="UserCode"
+							result="Failed"
+							duration="0ms"
+							type="test module"
+							rid="2">
+							
+							<datarow>
+							</datarow>
+									
+
+
+								<item
+									time="7:02:16"
+									level="Success"
+									category="WRITE TO REPORT ">
+									<message>
+										&#160;Report&#160;Message&#160;:[*---Starting&#160;test&#160;case&#160;tc_ContractNumberinDbwhenoptiontoextendischeckedforformatdeal---*]
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:02:16"
+									level="Success"
+									category="WRITE TO REPORT ">
+									<message>
+										&#160;Report&#160;Message&#160;:[----*&#160;Starting&#160;Business&#160;Component:-&#160;bc_Login&#160;-&#160;Login&#160;to&#160;GPS&#160;Application&#160;*-----]
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:02:17"
+									level="Success"
+									category="OPEN ">
+									<message>
+										Open&#160;url&#160;[https://aenetworks.oktapreview.com/login/default/]
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:02:19"
+									level="Success"
+									category="PAUSE Command">
+									<message>
+										Paused&#160;[2000]&#160;milliseconds.&#160;Comment&#160;:&#160;Lead&#160;time&#160;to&#160;load&#160;the&#160;page
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:02:34"
+									level="Success"
+									category="PAUSE Command">
+									<message>
+										Paused&#160;[15000]&#160;milliseconds.&#160;Comment&#160;:&#160;Lead&#160;time&#160;to&#160;load&#160;the&#160;page
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:02:34"
+									level="Success"
+									category="WRITE TO REPORT ">
+									<message>
+										&#160;Report&#160;Message&#160;:[----*&#160;Starting&#160;Business&#160;Component:-&#160;bc_OktaLogin&#160;-&#160;Navigate&#160;to&#160;Okta&#160;Login&#160;Page&#160;*-----]
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:02:36"
+									level="Success"
+									category="PAUSE Command">
+									<message>
+										Paused&#160;[2000]&#160;milliseconds.&#160;Comment&#160;:&#160;Lead&#160;time&#160;to&#160;lod&#160;the&#160;page
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:02:36"
+									level="Success"
+									category="CHECK ELEMENT PRESENT ">
+									<message>
+										Check&#160;Element&#160;Present&#160;on&#160;Element&#160;[PG_OktaLogin.tf_OktaUserName]&#160;with&#160;Locator&#160;:&#160;//input[@id=&#38;apos;okta-signin-username&#38;apos;]
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:02:38"
+									level="Success"
+									category="PAUSE Command">
+									<message>
+										Paused&#160;[2000]&#160;milliseconds.&#160;Comment&#160;:&#160;Lead&#160;time&#160;to&#160;lod&#160;the&#160;page
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:02:38"
+									level="Success"
+									category="TYPE ">
+									<message>
+										&#160;Typed&#160;value&#160;[QAAUTO.TEST]&#160;on&#160;Element&#160;[PG_OktaLogin.tf_OktaUserName]&#160;with&#160;Locator&#160;:&#160;//input[@id=&#38;apos;okta-signin-username&#38;apos;]
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:02:43"
+									level="Success"
+									category="PAUSE Command">
+									<message>
+										Paused&#160;[5000]&#160;milliseconds.&#160;Comment&#160;:&#160;Lead&#160;time&#160;to&#160;lod&#160;the&#160;page
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:02:43"
+									level="Success"
+									category="CHECK ELEMENT PRESENT ">
+									<message>
+										Check&#160;Element&#160;Present&#160;on&#160;Element&#160;[PG_OktaLogin.tf_OktaPassword]&#160;with&#160;Locator&#160;:&#160;//input[@id=&#38;apos;okta-signin-password&#38;apos;]
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:02:44"
+									level="Success"
+									category="TYPE ">
+									<message>
+										&#160;Typed&#160;value&#160;[*******]&#160;on&#160;Element&#160;[PG_OktaLogin.tf_OktaPassword]&#160;with&#160;Locator&#160;:&#160;//input[@id=&#38;apos;okta-signin-password&#38;apos;]
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:02:44"
+									level="Success"
+									category="CHECK ELEMENT PRESENT ">
+									<message>
+										Check&#160;Element&#160;Present&#160;on&#160;Element&#160;[PG_OktaLogin.btn_SignIn]&#160;with&#160;Locator&#160;:&#160;//input[@id=&#38;apos;okta-signin-submit&#38;apos;]
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:02:44"
+									level="Success"
+									category="CLICK ">
+									<message>
+										Clicked&#160;on&#160;Element&#160;[PG_OktaLogin.btn_SignIn]&#160;with&#160;Locator&#160;:&#160;//input[@id=&#38;apos;okta-signin-submit&#38;apos;]
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:02:44"
+									level="Success"
+									category="WRITE TO REPORT ">
+									<message>
+										&#160;Report&#160;Message&#160;:[----*&#160;End&#160;of&#160;Business&#160;Component:-&#160;bc_OktaLogin&#160;-&#160;Navigate&#160;to&#160;Okta&#160;Login&#160;Page&#160;*-----]
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:02:49"
+									level="Success"
+									category="PAUSE Command">
+									<message>
+										Paused&#160;[5000]&#160;milliseconds.&#160;Comment&#160;:&#160;Lead&#160;time&#160;to&#160;load&#160;the&#160;page
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:02:54"
+									level="Success"
+									category="PAUSE Command">
+									<message>
+										Paused&#160;[5000]&#160;milliseconds.&#160;Comment&#160;:&#160;Lead&#160;time&#160;to&#160;load&#160;the&#160;page
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:02:54"
+									level="Success"
+									category="CLICK ">
+									<message>
+										Clicked&#160;on&#160;Element&#160;[PG_Common.lnk_OktaPreviewApplication]&#160;with&#160;Locator&#160;:&#160;//p[text()=&#38;apos;GPS&#160;QA1&#160;AWS&#38;apos;]/../a
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:02:59"
+									level="Success"
+									category="PAUSE Command">
+									<message>
+										Paused&#160;[5000]&#160;milliseconds.&#160;Comment&#160;:&#160;Lead&#160;time&#160;to&#160;load&#160;the&#160;page
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:01"
+									level="Success"
+									category="WRITE TO REPORT ">
+									<message>
+										&#160;Report&#160;Message&#160;:[----*&#160;Starting&#160;Business&#160;Component:-&#160;bc_VerifyPageHeader-Verify&#160;Page&#160;Header&#160;*-----]
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:03"
+									level="Success"
+									category="CHECK ELEMENT PRESENT ">
+									<message>
+										Check&#160;Element&#160;Present&#160;on&#160;Element&#160;[PG_GPSHomePage.ele_lblPageHeader]&#160;with&#160;Locator&#160;:&#160;//h1[contains(text(),&#38;apos;GPS&#38;apos;)]
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:03"
+									level="Success"
+									category="WRITE TO REPORT ">
+									<message>
+										&#160;Report&#160;Message&#160;:[----*&#160;End&#160;of&#160;Business&#160;Component:-&#160;bc_VerifyPageHeader-Verify&#160;Page&#160;Header&#160;*-----]
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:03"
+									level="Success"
+									category="WRITE TO REPORT ">
+									<message>
+										&#160;Report&#160;Message&#160;:[----*&#160;End&#160;of&#160;Business&#160;Component:-&#160;bc_Login&#160;-&#160;Login&#160;to&#160;GPS&#160;Application&#160;*-----]
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:03"
+									level="Success"
+									category="WRITE TO REPORT ">
+									<message>
+										&#160;Report&#160;Message&#160;:[*---Starting&#160;busines&#160;component&#160;bc_ClickOnNewDeal---*]
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:05"
+									level="Success"
+									category="PAUSE Command">
+									<message>
+										Paused&#160;[2000]&#160;milliseconds.&#160;Comment&#160;:&#160;Wait
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:05"
+									level="Success"
+									category="CHECK ELEMENT PRESENT ">
+									<message>
+										Check&#160;Element&#160;Present&#160;on&#160;Element&#160;[PG_Administration.ele_Menu]&#160;with&#160;Locator&#160;:&#160;//h2[contains(text(),&#38;apos;Menu&#38;apos;)]
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:07"
+									level="Success"
+									category="PAUSE Command">
+									<message>
+										Paused&#160;[2000]&#160;milliseconds.&#160;Comment&#160;:&#160;Wait
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:07"
+									level="Success"
+									category="CLICK ">
+									<message>
+										Clicked&#160;on&#160;Element&#160;[PG_Administration.ele_Menu]&#160;with&#160;Locator&#160;:&#160;//h2[contains(text(),&#38;apos;Menu&#38;apos;)]
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:09"
+									level="Success"
+									category="PAUSE Command">
+									<message>
+										Paused&#160;[2000]&#160;milliseconds.&#160;Comment&#160;:&#160;Wait
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:09"
+									level="Success"
+									category="CLICK ">
+									<message>
+										Clicked&#160;on&#160;Element&#160;[PG_Administration.ele_Administration]&#160;with&#160;Locator&#160;:&#160;//span[contains(text(),&#38;apos;Deal&#38;apos;)]
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:11"
+									level="Success"
+									category="PAUSE Command">
+									<message>
+										Paused&#160;[2000]&#160;milliseconds.&#160;Comment&#160;:&#160;wait
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:14"
+									level="Success"
+									category="CLICK ">
+									<message>
+										Clicked&#160;on&#160;Element&#160;[&#160;PG_BaseRegressionGPS.ele_NewDeal]&#160;with&#160;Locator&#160;:&#160;//span[contains(text(),&#38;apos;New&#160;Deal&#38;apos;)]
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:18"
+									level="Success"
+									category="PAUSE Command">
+									<message>
+										Paused&#160;[4000]&#160;milliseconds.&#160;Comment&#160;:&#160;Wait
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:18"
+									level="Success"
+									category="WRITE TO REPORT ">
+									<message>
+										&#160;Report&#160;Message&#160;:[*---End&#160;of&#160;&#160;busines&#160;component&#160;bc_ClickOnNewDeal---*]
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:18"
+									level="Success"
+									category="WRITE TO REPORT ">
+									<message>
+										&#160;Report&#160;Message&#160;:[*---Starting&#160;business&#160;component&#160;bc_FillTheFieldsforFormatDealType---*]
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:19"
+									level="Success"
+									category="PAUSE Command">
+									<message>
+										Paused&#160;[1000]&#160;milliseconds.&#160;Comment&#160;:&#160;Wait
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:20"
+									level="Success"
+									category="CLICK ">
+									<message>
+										Clicked&#160;on&#160;Element&#160;[PG_BaseRegressionGPS.ele_ExpandiconsforNewDeal]&#160;with&#160;Locator&#160;:&#160;//label[text()=&#38;quot;Deal&#160;Type&#38;quot;]/../span//input
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:21"
+									level="Success"
+									category="PAUSE Command">
+									<message>
+										Paused&#160;[1000]&#160;milliseconds.&#160;Comment&#160;:&#160;Wait
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:22"
+									level="Success"
+									category="CLICK ">
+									<message>
+										Clicked&#160;on&#160;Element&#160;[PG_BaseRegressionGPS.ele_NewDealDropdownvalues]&#160;with&#160;Locator&#160;:&#160;//ul[@id=&#38;quot;dealTypeId_listbox&#38;quot;&#160;]//li[text()=&#38;apos;Format&#160;Deals&#38;apos;]
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:23"
+									level="Success"
+									category="PAUSE Command">
+									<message>
+										Paused&#160;[1000]&#160;milliseconds.&#160;Comment&#160;:&#160;Wait
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:23"
+									level="Success"
+									category="TYPE ">
+									<message>
+										&#160;Typed&#160;value&#160;[Test]&#160;on&#160;Element&#160;[PG_BaseRegressionGPS.ele_DealnameTextBox]&#160;with&#160;Locator&#160;:&#160;//label[text()=&#38;quot;Deal&#160;Name&#38;quot;]/../input
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:24"
+									level="Success"
+									category="PAUSE Command">
+									<message>
+										Paused&#160;[1000]&#160;milliseconds.&#160;Comment&#160;:&#160;Wait
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:25"
+									level="Success"
+									category="CLICK ">
+									<message>
+										Clicked&#160;on&#160;Element&#160;[PG_BaseRegressionGPS.ele_ExpandiconsforNewDeal]&#160;with&#160;Locator&#160;:&#160;//label[text()=&#38;quot;Licensee&#160;Name&#38;quot;]/../span//input
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:26"
+									level="Success"
+									category="PAUSE Command">
+									<message>
+										Paused&#160;[1000]&#160;milliseconds.&#160;Comment&#160;:&#160;Wait
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:27"
+									level="Success"
+									category="CLICK ">
+									<message>
+										Clicked&#160;on&#160;Element&#160;[PG_BaseRegressionGPS.ele_NewDealDropdownvalues]&#160;with&#160;Locator&#160;:&#160;//ul[@id=&#38;quot;licenseNameId_listbox&#38;quot;&#160;]//li[text()=&#38;apos;&#38;quot;TV&#160;Channel&#160;&#38;quot;Russia&#38;quot;&#38;apos;]
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:29"
+									level="Success"
+									category="PAUSE Command">
+									<message>
+										Paused&#160;[2000]&#160;milliseconds.&#160;Comment&#160;:&#160;Wait
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:29"
+									level="Success"
+									category="TYPE ">
+									<message>
+										&#160;Typed&#160;value&#160;[Auto]&#160;on&#160;Element&#160;[PG_BaseRegressionGPS.ele_DealnameTextBox]&#160;with&#160;Locator&#160;:&#160;//label[text()=&#38;quot;Production&#160;Company&#38;quot;]/../input
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:30"
+									level="Success"
+									category="PAUSE Command">
+									<message>
+										Paused&#160;[1000]&#160;milliseconds.&#160;Comment&#160;:&#160;Wait
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:30"
+									level="Success"
+									category="CLICK ">
+									<message>
+										Clicked&#160;on&#160;Element&#160;[PG_BaseRegressionGPS.ele_ExpandiconsforNewDeal]&#160;with&#160;Locator&#160;:&#160;//label[text()=&#38;quot;Broadcast&#160;Channel&#38;quot;]/../span//input
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:31"
+									level="Success"
+									category="PAUSE Command">
+									<message>
+										Paused&#160;[1000]&#160;milliseconds.&#160;Comment&#160;:&#160;Wait
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:31"
+									level="Success"
+									category="CLICK ">
+									<message>
+										Clicked&#160;on&#160;Element&#160;[PG_BaseRegressionGPS.ele_NewDealDropdownvalues]&#160;with&#160;Locator&#160;:&#160;//ul[@id=&#38;quot;braodcastChannelId_listbox&#38;quot;&#160;]//li[text()=&#38;apos;Russia:&#160;Russia&#160;1,&#160;Rosiiya-Kultura,&#160;Russia&#160;24&#38;apos;]
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:32"
+									level="Success"
+									category="PAUSE Command">
+									<message>
+										Paused&#160;[1000]&#160;milliseconds.&#160;Comment&#160;:&#160;Wait
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:33"
+									level="Success"
+									category="CLICK ">
+									<message>
+										Clicked&#160;on&#160;Element&#160;[PG_BaseRegressionGPS.ele_ExpandiconsforNewDeal]&#160;with&#160;Locator&#160;:&#160;//label[text()=&#38;quot;Original&#160;Format&#160;Name&#38;quot;]/../span//input
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:34"
+									level="Success"
+									category="PAUSE Command">
+									<message>
+										Paused&#160;[1000]&#160;milliseconds.&#160;Comment&#160;:&#160;Wait
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:34"
+									level="Success"
+									category="CLICK ">
+									<message>
+										Clicked&#160;on&#160;Element&#160;[PG_BaseRegressionGPS.ele_NewDealDropdownvalues]&#160;with&#160;Locator&#160;:&#160;//ul[@id=&#38;quot;originalFormatId_listbox&#38;quot;&#160;]//li[text()=&#38;apos;#BlackLove&#38;apos;]
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:35"
+									level="Success"
+									category="PAUSE Command">
+									<message>
+										Paused&#160;[1000]&#160;milliseconds.&#160;Comment&#160;:&#160;Wait
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:35"
+									level="Success"
+									category="CLICK ">
+									<message>
+										Clicked&#160;on&#160;Element&#160;[PG_BaseRegressionGPS.ele_ExpandiconsforNewDeal]&#160;with&#160;Locator&#160;:&#160;//label[text()=&#38;quot;Primary&#160;Territory&#38;quot;]/../span//input
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:36"
+									level="Success"
+									category="PAUSE Command">
+									<message>
+										Paused&#160;[1000]&#160;milliseconds.&#160;Comment&#160;:&#160;Wait
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:36"
+									level="Success"
+									category="CLICK ">
+									<message>
+										Clicked&#160;on&#160;Element&#160;[PG_BaseRegressionGPS.ele_NewDealDropdownvalues]&#160;with&#160;Locator&#160;:&#160;//ul[@id=&#38;quot;primaryFeedTerritoryId1_listbox&#38;quot;&#160;]//li[text()=&#38;apos;AFRTS&#38;apos;]
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:37"
+									level="Success"
+									category="PAUSE Command">
+									<message>
+										Paused&#160;[1000]&#160;milliseconds.&#160;Comment&#160;:&#160;Wait
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:37"
+									level="Success"
+									category="CLICK ">
+									<message>
+										Clicked&#160;on&#160;Element&#160;[PG_BaseRegressionGPS.ele_ExpandiconsforNewDeal]&#160;with&#160;Locator&#160;:&#160;//label[text()=&#38;quot;Jaguar&#160;Workflow&#160;Status&#38;quot;]/../span//input
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:38"
+									level="Success"
+									category="PAUSE Command">
+									<message>
+										Paused&#160;[1000]&#160;milliseconds.&#160;Comment&#160;:&#160;Wait
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:39"
+									level="Success"
+									category="CLICK ">
+									<message>
+										Clicked&#160;on&#160;Element&#160;[PG_BaseRegressionGPS.ele_NewDealDropdownvalues]&#160;with&#160;Locator&#160;:&#160;//ul[@id=&#38;quot;jaguarWorkflowStatusId_listbox&#38;quot;&#160;]//li[text()=&#38;apos;Send&#160;to&#160;Jaguar&#38;apos;]
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:40"
+									level="Success"
+									category="PAUSE Command">
+									<message>
+										Paused&#160;[1000]&#160;milliseconds.&#160;Comment&#160;:&#160;Wait
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:40"
+									level="Success"
+									category="CLICK ">
+									<message>
+										Clicked&#160;on&#160;Element&#160;[PG_BaseRegressionGPS.ele_ExpandiconsforNewDeal]&#160;with&#160;Locator&#160;:&#160;//label[text()=&#38;quot;Attorney&#38;quot;]/../span//input
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:41"
+									level="Success"
+									category="PAUSE Command">
+									<message>
+										Paused&#160;[1000]&#160;milliseconds.&#160;Comment&#160;:&#160;Wait
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:41"
+									level="Success"
+									category="CLICK ">
+									<message>
+										Clicked&#160;on&#160;Element&#160;[PG_BaseRegressionGPS.ele_NewDealDropdownvalues]&#160;with&#160;Locator&#160;:&#160;//ul[@id=&#38;quot;attorneyId1_listbox&#38;quot;&#160;]//li[text()=&#38;apos;Ermelinda&#160;Vetrone&#38;apos;]
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:42"
+									level="Success"
+									category="PAUSE Command">
+									<message>
+										Paused&#160;[1000]&#160;milliseconds.&#160;Comment&#160;:&#160;Wait
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:42"
+									level="Success"
+									category="CLICK ">
+									<message>
+										Clicked&#160;on&#160;Element&#160;[PG_BaseRegressionGPS.ele_ExpandiconsforNewDeal]&#160;with&#160;Locator&#160;:&#160;//label[text()=&#38;quot;Sales&#160;Person&#38;quot;]/../span//input
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:43"
+									level="Success"
+									category="PAUSE Command">
+									<message>
+										Paused&#160;[1000]&#160;milliseconds.&#160;Comment&#160;:&#160;Wait
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:43"
+									level="Success"
+									category="CLICK ">
+									<message>
+										Clicked&#160;on&#160;Element&#160;[PG_BaseRegressionGPS.ele_NewDealDropdownvalues]&#160;with&#160;Locator&#160;:&#160;//ul[@id=&#38;quot;salesTeamId1_listbox&#38;quot;&#160;]//li[text()=&#38;apos;Akhila&#160;Khanna&#38;apos;]
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:44"
+									level="Success"
+									category="PAUSE Command">
+									<message>
+										Paused&#160;[1000]&#160;milliseconds.&#160;Comment&#160;:&#160;Wait
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:46"
+									level="Success"
+									category="CLICK ">
+									<message>
+										Clicked&#160;on&#160;Element&#160;[&#160;PG_BaseRegressionGPS.ele_DealslanguageTextbox]&#160;with&#160;Locator&#160;:&#160;//label[text()=&#38;quot;Deal&#38;apos;s&#160;Language&#38;quot;]//parent::div//div//div//input
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:47"
+									level="Success"
+									category="PAUSE Command">
+									<message>
+										Paused&#160;[1000]&#160;milliseconds.&#160;Comment&#160;:&#160;Wait
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:47"
+									level="Success"
+									category="CLICK ">
+									<message>
+										Clicked&#160;on&#160;Element&#160;[PG_BaseRegressionGPS.ele_NewDealDropdownvalues]&#160;with&#160;Locator&#160;:&#160;//ul[@id=&#38;quot;dealsLanguageId_listbox&#38;quot;&#160;]//li[text()=&#38;apos;Albanian&#38;apos;]
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:49"
+									level="Success"
+									category="PAUSE Command">
+									<message>
+										Paused&#160;[2000]&#160;milliseconds.&#160;Comment&#160;:&#160;Wait
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:50"
+									level="Success"
+									category="CLICK ">
+									<message>
+										Clicked&#160;on&#160;Element&#160;[PG_BaseRegressionGPS.ele_Checkboxunderformatdeal]&#160;with&#160;Locator&#160;:&#160;xpath=(//label[contains(text(),&#38;apos;Per&#160;Episode&#38;apos;)]//parent::div//parent::div//div/div//div//ins[@class=&#38;apos;iCheck-helper&#38;apos;])[1]
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:51"
+									level="Success"
+									category="PAUSE Command">
+									<message>
+										Paused&#160;[1000]&#160;milliseconds.&#160;Comment&#160;:&#160;Wait
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:51"
+									level="Success"
+									category="TYPE ">
+									<message>
+										&#160;Typed&#160;value&#160;[1]&#160;on&#160;Element&#160;[PG_BaseRegressionGPS.ele_LicenseFeeTextbox]&#160;with&#160;Locator&#160;:&#160;//label[text()=&#38;quot;Number&#160;of&#160;Episodes&#38;quot;]/../div//input[@id=&#38;apos;numOfEpisodesMin&#38;apos;]
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:52"
+									level="Success"
+									category="PAUSE Command">
+									<message>
+										Paused&#160;[1000]&#160;milliseconds.&#160;Comment&#160;:&#160;Wait
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:52"
+									level="Success"
+									category="TYPE ">
+									<message>
+										&#160;Typed&#160;value&#160;[10]&#160;on&#160;Element&#160;[PG_BaseRegressionGPS.ele_LicenseFeeTextbox]&#160;with&#160;Locator&#160;:&#160;//label[text()=&#38;quot;Number&#160;of&#160;Episodes&#38;quot;]/../div//input[@id=&#38;apos;numberOfEpisodesMax&#38;apos;]
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:53"
+									level="Success"
+									category="PAUSE Command">
+									<message>
+										Paused&#160;[1000]&#160;milliseconds.&#160;Comment&#160;:&#160;Wait
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:53"
+									level="Success"
+									category="TYPE ">
+									<message>
+										&#160;Typed&#160;value&#160;[10]&#160;on&#160;Element&#160;[PG_BaseRegressionGPS.ele_LicenseFeeTextbox]&#160;with&#160;Locator&#160;:&#160;//label[text()=&#38;quot;Min&#160;Fee&#160;Per&#160;Episode&#38;quot;]/../div//input[@id=&#38;apos;minFeePerEpisodes&#38;apos;]
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:54"
+									level="Success"
+									category="PAUSE Command">
+									<message>
+										Paused&#160;[1000]&#160;milliseconds.&#160;Comment&#160;:&#160;Wait
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:55"
+									level="Success"
+									category="TYPE ">
+									<message>
+										&#160;Typed&#160;value&#160;[100]&#160;on&#160;Element&#160;[PG_BaseRegressionGPS.ele_LicenseFeeTextbox]&#160;with&#160;Locator&#160;:&#160;//label[text()=&#38;quot;Floor&#160;License&#160;Fee&#160;to&#160;be&#160;Billed&#38;quot;]/../div//input[@id=&#38;apos;floorLicenseFeeToBeFilled&#38;apos;]
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:56"
+									level="Success"
+									category="PAUSE Command">
+									<message>
+										Paused&#160;[1000]&#160;milliseconds.&#160;Comment&#160;:&#160;Wait
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:56"
+									level="Success"
+									category="TYPE ">
+									<message>
+										&#160;Typed&#160;value&#160;[12]&#160;on&#160;Element&#160;[PG_BaseRegressionGPS.ele_LicenseFeeTextbox]&#160;with&#160;Locator&#160;:&#160;//label[text()=&#38;quot;License&#160;Period&#160;(Months)&#38;quot;]/../div//input[@id=&#38;apos;LicensePeriodMonthsId1&#38;apos;]
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:57"
+									level="Success"
+									category="PAUSE Command">
+									<message>
+										Paused&#160;[1000]&#160;milliseconds.&#160;Comment&#160;:&#160;Wait
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:57"
+									level="Success"
+									category="TYPE ">
+									<message>
+										&#160;Typed&#160;value&#160;[01/01/2020]&#160;on&#160;Element&#160;[PG_BaseRegressionGPS.ele_Licensedtaes]&#160;with&#160;Locator&#160;:&#160;//input[contains(@id,&#38;apos;LicensePeriodStartDateId&#38;apos;)]
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:58"
+									level="Success"
+									category="PAUSE Command">
+									<message>
+										Paused&#160;[1000]&#160;milliseconds.&#160;Comment&#160;:&#160;Wait
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:58"
+									level="Success"
+									category="TYPE ">
+									<message>
+										&#160;Typed&#160;value&#160;[01/01/2020]&#160;on&#160;Element&#160;[PG_BaseRegressionGPS.ele_Licensedtaes]&#160;with&#160;Locator&#160;:&#160;//input[contains(@id,&#38;apos;ProductionStartDeadlineId&#38;apos;)]
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:03:59"
+									level="Success"
+									category="PAUSE Command">
+									<message>
+										Paused&#160;[1000]&#160;milliseconds.&#160;Comment&#160;:&#160;Wait
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:04:00"
+									level="Success"
+									category="TYPE ">
+									<message>
+										&#160;Typed&#160;value&#160;[01/01/2020]&#160;on&#160;Element&#160;[PG_BaseRegressionGPS.ele_Licensedtaes]&#160;with&#160;Locator&#160;:&#160;//input[contains(@id,&#38;apos;BroadcastByDateId&#38;apos;)]
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:04:01"
+									level="Success"
+									category="PAUSE Command">
+									<message>
+										Paused&#160;[1000]&#160;milliseconds.&#160;Comment&#160;:&#160;Wait
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:04:02"
+									level="Success"
+									category="PAUSE Command">
+									<message>
+										Paused&#160;[1000]&#160;milliseconds.&#160;Comment&#160;:&#160;Wait
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:04:02"
+									level="Success"
+									category="TYPE ">
+									<message>
+										&#160;Typed&#160;value&#160;[9]&#160;on&#160;Element&#160;[PG_BaseRegressionGPS.ele_LicenseFeeTextbox]&#160;with&#160;Locator&#160;:&#160;//label[text()=&#38;quot;License&#160;Period&#160;(Months)&#38;quot;]/../div//input[@id=&#38;apos;LicensePeriodMonths2&#38;apos;]
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:04:03"
+									level="Success"
+									category="PAUSE Command">
+									<message>
+										Paused&#160;[1000]&#160;milliseconds.&#160;Comment&#160;:&#160;Wait
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:04:03"
+									level="Success"
+									category="TYPE ">
+									<message>
+										&#160;Typed&#160;value&#160;[01/01/2020]&#160;on&#160;Element&#160;[PG_BaseRegressionGPS.ele_Licensedtaes]&#160;with&#160;Locator&#160;:&#160;//input[contains(@id,&#38;apos;LicenseStartDateId2&#38;apos;)]
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:04:03"
+									level="Success"
+									category="WRITE TO REPORT ">
+									<message>
+										&#160;Report&#160;Message&#160;:[*---End&#160;of&#160;business&#160;component&#160;bc_FillTheFieldsforFormatDealType---*]
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:04:03"
+									level="Success"
+									category="WRITE TO REPORT ">
+									<message>
+										&#160;Report&#160;Message&#160;:[----*&#160;start&#160;of&#160;business&#160;component&#160;bc-verifyMandatoryfieldsifextensionischecked&#160;|verify&#160;Mandatory&#160;fileds&#160;if&#160;extension&#160;is&#160;checked&#160;*-----]
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:04:03"
+									level="Success"
+									category="CLICK ">
+									<message>
+										Clicked&#160;on&#160;Element&#160;[PG_BaseRegressionGPS.ele_optionCheckBox]&#160;with&#160;Locator&#160;:&#160;//input[@id=&#38;apos;optionCheckbox&#38;apos;]//following-sibling&#160;::ins
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:04:04"
+									level="Success"
+									category="PAUSE Command">
+									<message>
+										Paused&#160;[1000]&#160;milliseconds.&#160;Comment&#160;:&#160;Wait
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:04:05"
+									level="Success"
+									category="CLICK ">
+									<message>
+										Clicked&#160;on&#160;Element&#160;[PG_BaseRegressionGPS.ele_optiontoExtendCheckbox]&#160;with&#160;Locator&#160;:&#160;//input[@id=&#38;apos;OptionToExtendCheckbox&#38;apos;]//following-sibling&#160;::ins
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:04:06"
+									level="Success"
+									category="PAUSE Command">
+									<message>
+										Paused&#160;[1000]&#160;milliseconds.&#160;Comment&#160;:&#160;Wait
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:04:06"
+									level="Success"
+									category="TYPE ">
+									<message>
+										&#160;Typed&#160;value&#160;[1]&#160;on&#160;Element&#160;[PG_BaseRegressionGPS.ele_feeamountInputTextBoxInOptionFields]&#160;with&#160;Locator&#160;:&#160;//label[text()=&#38;apos;Fee&#160;Amount&#38;apos;]//following-sibling&#160;::input[contains(@id,&#38;apos;FeeAmountId&#38;apos;)]
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:04:07"
+									level="Success"
+									category="PAUSE Command">
+									<message>
+										Paused&#160;[1000]&#160;milliseconds.&#160;Comment&#160;:&#160;Wait
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:04:07"
+									level="Success"
+									category="TYPE ">
+									<message>
+										&#160;Typed&#160;value&#160;[1]&#160;on&#160;Element&#160;[PG_BaseRegressionGPS.ele_optionPeriodMonthsInOptionFields]&#160;with&#160;Locator&#160;:&#160;//input[contains(@id,&#38;apos;OptionPeriodMonthsId&#38;apos;)]
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:04:08"
+									level="Success"
+									category="PAUSE Command">
+									<message>
+										Paused&#160;[1000]&#160;milliseconds.&#160;Comment&#160;:&#160;Wait
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:04:08"
+									level="Success"
+									category="TYPE ">
+									<message>
+										&#160;Typed&#160;value&#160;[1/02/2020]&#160;on&#160;Element&#160;[PG_BaseRegressionGPS.ele_optionstartdateIdInOptionFields]&#160;with&#160;Locator&#160;:&#160;//input[contains(@id,&#38;apos;OptionStartDateId&#38;apos;)]
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:04:09"
+									level="Success"
+									category="PAUSE Command">
+									<message>
+										Paused&#160;[1000]&#160;milliseconds.&#160;Comment&#160;:&#160;Wait
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:04:09"
+									level="Success"
+									category="CLICK ">
+									<message>
+										Clicked&#160;on&#160;Element&#160;[PG_BaseRegressionGPS.ele_addNewButtonInoptionsFields]&#160;with&#160;Locator&#160;:&#160;//input[contains(@id,&#38;apos;addNewOptionBtn&#38;apos;)]
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:04:10"
+									level="Success"
+									category="PAUSE Command">
+									<message>
+										Paused&#160;[1000]&#160;milliseconds.&#160;Comment&#160;:&#160;Wait
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:04:11"
+									level="Success"
+									category="CLICK ">
+									<message>
+										Clicked&#160;on&#160;Element&#160;[PG_BaseRegressionGPS.ele_extensionPeriodInOptiontoExtendTable]&#160;with&#160;Locator&#160;:&#160;//div[@id=&#38;apos;optionToExtendGrid&#38;apos;]//div[@class=&#38;apos;k-grid-content&#38;apos;]//td[3]
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:04:12"
+									level="Success"
+									category="PAUSE Command">
+									<message>
+										Paused&#160;[1000]&#160;milliseconds.&#160;Comment&#160;:&#160;Wait
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:04:12"
+									level="Success"
+									category="TYPE ">
+									<message>
+										&#160;Typed&#160;value&#160;[0]&#160;on&#160;Element&#160;[PG_BaseRegressionGPS.ele_extensionPeriodTextBoxInOptiontoExtend]&#160;with&#160;Locator&#160;:&#160;//input[contains(@data-bind,&#38;apos;ExtensioPeriodMonths&#38;apos;)&#160;and&#160;@type=&#38;apos;text&#38;apos;]
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:04:13"
+									level="Success"
+									category="PAUSE Command">
+									<message>
+										Paused&#160;[1000]&#160;milliseconds.&#160;Comment&#160;:&#160;Wait
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:04:13"
+									level="Success"
+									category="CLICK ">
+									<message>
+										Clicked&#160;on&#160;Element&#160;[PG_BaseRegressionGPS.ele_feeamountInOptiontoExtendTable]&#160;with&#160;Locator&#160;:&#160;//div[@id=&#38;apos;optionToExtendGrid&#38;apos;]//div[@class=&#38;apos;k-grid-content&#38;apos;]//td[2]
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:04:14"
+									level="Success"
+									category="PAUSE Command">
+									<message>
+										Paused&#160;[1000]&#160;milliseconds.&#160;Comment&#160;:&#160;Wait
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:04:15"
+									level="Success"
+									category="TYPE ">
+									<message>
+										&#160;Typed&#160;value&#160;[1]&#160;on&#160;Element&#160;[PG_BaseRegressionGPS.ele_feeAmountTextBoxInOptiontoExtendTable]&#160;with&#160;Locator&#160;:&#160;//input[contains(@data-bind,&#38;apos;FeeAmount&#38;apos;)&#160;and&#160;@type=&#38;apos;text&#38;apos;]
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:04:16"
+									level="Success"
+									category="PAUSE Command">
+									<message>
+										Paused&#160;[1000]&#160;milliseconds.&#160;Comment&#160;:&#160;Wait
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:04:16"
+									level="Success"
+									category="CHECK ELEMENT PRESENT ">
+									<message>
+										Check&#160;Element&#160;Present&#160;on&#160;Element&#160;[PG_BaseRegressionGPS.ele_AutomaticCheckBoxInoptiontoExtend]&#160;with&#160;Locator&#160;:&#160;//input[contains(@id,&#38;apos;AutomaticId&#38;apos;)&#160;and&#160;@type=&#38;apos;checkbox&#38;apos;]
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:04:17"
+									level="Success"
+									category="PAUSE Command">
+									<message>
+										Paused&#160;[1000]&#160;milliseconds.&#160;Comment&#160;:&#160;Wait
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:04:17"
+									level="Success"
+									category="CHECK ELEMENT PRESENT ">
+									<message>
+										Check&#160;Element&#160;Present&#160;on&#160;Element&#160;[PG_BaseRegressionGPS.ele_ExtensionExcercisedInOptionstoExtendTable]&#160;with&#160;Locator&#160;:&#160;//input[contains(@id,&#38;apos;ExtensionExcercisedId&#38;apos;)&#160;and&#160;@type=&#38;apos;checkbox&#38;apos;]
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:04:18"
+									level="Success"
+									category="PAUSE Command">
+									<message>
+										Paused&#160;[1000]&#160;milliseconds.&#160;Comment&#160;:&#160;Wait
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:04:18"
+									level="Success"
+									category="CHECK ELEMENT PRESENT ">
+									<message>
+										Check&#160;Element&#160;Present&#160;on&#160;Element&#160;[PG_BaseRegressionGPS.ele_extensionExpirationDateInOptiontoExtendTable]&#160;with&#160;Locator&#160;:&#160;//div[@class=&#38;apos;k-grid-content&#38;apos;]//td[text()=&#38;apos;2/2/2020&#38;apos;]
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:04:18"
+									level="Success"
+									category="WRITE TO REPORT ">
+									<message>
+										&#160;Report&#160;Message&#160;:[----*&#160;end&#160;of&#160;business&#160;component&#160;bc-verifyMandatoryfieldsifextensionischecked&#160;|verify&#160;Mandatory&#160;fileds&#160;if&#160;extension&#160;is&#160;checked&#160;*-----]
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:04:18"
+									level="Success"
+									category="WRITE TO REPORT ">
+									<message>
+										&#160;Report&#160;Message&#160;:[*---Starting&#160;business&#160;component&#160;bc_ClickOnSaveDeal--*]
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:04:19"
+									level="Success"
+									category="PAUSE Command">
+									<message>
+										Paused&#160;[1000]&#160;milliseconds.&#160;Comment&#160;:&#160;Wait
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:04:19"
+									level="Success"
+									category="CLICK ">
+									<message>
+										Clicked&#160;on&#160;Element&#160;[PG_BaseRegressionGPS.ele_Savedeal]&#160;with&#160;Locator&#160;:&#160;//button[contains(text(),&#38;apos;Save&#160;Deal&#38;apos;)]
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:04:21"
+									level="Success"
+									category="PAUSE Command">
+									<message>
+										Paused&#160;[2000]&#160;milliseconds.&#160;Comment&#160;:&#160;Wait
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:04:21"
+									level="Success"
+									category="WRITE TO REPORT ">
+									<message>
+										&#160;Report&#160;Message&#160;:[*---End&#160;of&#160;business&#160;componenet&#160;bc_CLickOnSaveDeal---*]
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:04:21"
+									level="Success"
+									category="WRITE TO REPORT ">
+									<message>
+										&#160;Report&#160;Message&#160;:[*---Starting&#160;business&#160;component&#160;bc_ValidateDatabaseDealid---*]
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:04:21"
+									level="Success"
+									category="STORE Value ">
+									<message>
+										Stored&#160;value&#160;[4605]&#160;to&#160;key&#160;[Dealid]
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:04:36"
+									level="Success"
+									category="PAUSE Command">
+									<message>
+										Paused&#160;[15000]&#160;milliseconds.&#160;Comment&#160;:&#160;Wait&#160;for&#160;the&#160;page&#160;to&#160;load
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:05:37"
+									level="Success"
+									category="PAUSE Command">
+									<message>
+										Paused&#160;[60000]&#160;milliseconds.&#160;Comment&#160;:&#160;Wait&#160;for&#160;the&#160;page&#160;to&#160;load
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:05:47"
+									level="Success"
+									category="PAUSE Command">
+									<message>
+										Paused&#160;[10000]&#160;milliseconds.&#160;Comment&#160;:&#160;Wait&#160;for&#160;the&#160;page&#160;to&#160;load
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:06:49"
+									level="Success"
+									category="PAUSE Command">
+									<message>
+										Paused&#160;[60000]&#160;milliseconds.&#160;Comment&#160;:&#160;Wait&#160;for&#160;the&#160;page&#160;to&#160;load
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:07:50"
+									level="Success"
+									category="PAUSE Command">
+									<message>
+										Paused&#160;[60000]&#160;milliseconds.&#160;Comment&#160;:&#160;Wait&#160;for&#160;the&#160;page&#160;to&#160;load
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:08:51"
+									level="Success"
+									category="PAUSE Command">
+									<message>
+										Paused&#160;[60000]&#160;milliseconds.&#160;Comment&#160;:&#160;Wait&#160;for&#160;the&#160;page&#160;to&#160;load
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:09:53"
+									level="Success"
+									category="PAUSE Command">
+									<message>
+										Paused&#160;[60000]&#160;milliseconds.&#160;Comment&#160;:&#160;Wait&#160;for&#160;the&#160;page&#160;to&#160;load
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:10:54"
+									level="Success"
+									category="PAUSE Command">
+									<message>
+										Paused&#160;[60000]&#160;milliseconds.&#160;Comment&#160;:&#160;Wait&#160;for&#160;the&#160;page&#160;to&#160;load
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:11:55"
+									level="Success"
+									category="PAUSE Command">
+									<message>
+										Paused&#160;[60000]&#160;milliseconds.&#160;Comment&#160;:&#160;Wait&#160;for&#160;the&#160;page&#160;to&#160;load
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:11:55"
+									level="Success"
+									category="STORE Value ">
+									<message>
+										Stored&#160;value&#160;[]&#160;to&#160;key&#160;[Contractnumber]
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:11:55"
+									level="Success"
+									category="WRITE TO REPORT ">
+									<message>
+										&#160;Report&#160;Message&#160;:[*---End&#160;of&#160;&#160;business&#160;component&#160;bc_ValidateDatabaseDealid---*]
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:11:55"
+									level="Success"
+									category="RETRIEVE Value ">
+									<message>
+										Retrieved&#160;value&#160;[]&#160;from&#160;key&#160;[Contractnumber]
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:11:55"
+									level="Success"
+									category="RETRIEVE Value ">
+									<message>
+										Retrieved&#160;value&#160;[4605]&#160;from&#160;key&#160;[Dealid]
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:11:55"
+									level="Success"
+									category="WRITE TO REPORT ">
+									<message>
+										&#160;Report&#160;Message&#160;:[*---Starting&#160;business&#160;component&#160;bc_ConnecttoDb---*]
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:11:57"
+									level="Success"
+									category="CREATE DB CONNECTION ">
+									<message>
+										Instance&#160;name&#160;:&#160;GPS&#160;DB&#160;URL&#160;:&#160;jdbc:sqlserver://gpsqa1.db.aenetworks.com:3031;DatabaseName=GPS
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:11:59"
+									level="Success"
+									category="PAUSE Command">
+									<message>
+										Paused&#160;[2000]&#160;milliseconds.&#160;Comment&#160;:&#160;Wait
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:11:59"
+									level="Success"
+									category="WRITE TO REPORT ">
+									<message>
+										&#160;Report&#160;Message&#160;:[*---End&#160;of&#160;&#160;business&#160;component&#160;bc_ConnecttoDb---*]
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:11:59"
+									level="Success"
+									category="WRITE TO REPORT ">
+									<message>
+										&#160;Report&#160;Message&#160;:[*---Starting&#160;busiess&#160;component&#160;bc_ExpectedResult---*]
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+
+								<item
+									time="7:12:01"
+									level="Success"
+									category="PAUSE Command">
+									<message>
+										Paused&#160;[2000]&#160;milliseconds.&#160;Comment&#160;:&#160;Wait
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+
+								<item
+									time="7:12:02"
+									level="Error"
+									category="SET DB RESULTS "
+									errimg="images\20200214191201138.png"
+									errthumb="images\20200214191201138.png_Thumb.png">
+									<message>
+										SQL&#160;Error&#160;occuredThe&#160;result&#160;set&#160;has&#160;no&#160;current&#160;row.
+									</message>
+									<metainfo
+										stacktrace="com.gps.TS_BaseRegressionGPS.tc_ContractNumberinDbwhenoptiontoextendischeckedforformatdeal(TS_BaseRegressionGPS.java:1157)|com.gps.LIB_BaseRegressionGPS.bc_SetDBResult(LIB_BaseRegressionGPS.java:1485)|com.virtusa.isq.vtaf.runtime.SeleniumTestBase.getStringDBResult(SeleniumTestBase.java:8837)"
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Error"/>
+								</item>	
+						</activity>
+					</activity>
+			</activity>
+	</activity>
+	</activity>
+
+</report>

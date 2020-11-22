@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="0" verbose="3" name="Failed suite [TestSuite]" parallel="none">
+  <test name="Smoke(failed)" parallel="none" preserve-order="false">
+    <classes>
+      <class name="com.gps.TS_GPS_Smoke">
+        <methods>
+          <include name="tc_GPS_SmokeTest_010" invocation-numbers="0"/>
+          <include name="tc_GPS_SmokeTest_003" invocation-numbers="0"/>
+          <include name="tc_GPS_SmokeTest_009" invocation-numbers="0"/>
+          <include name="checkForVerificationError"/>
+          <include name="cleanupSessions"/>
+          <include name="setTestContext"/>
+          <include name="readRunProp"/>
+          <include name="setUp"/>
+          <include name="tearDownSuite"/>
+          <include name="getSelenium"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
